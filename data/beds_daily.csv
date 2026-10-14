@@ -1,0 +1,92 @@
+snapshot_date,snapshot_time_et,feed,provider,provider_slug,bed_type,service,setting,town,status,available,filled,waiting,total_reported_beds,provider_updated_et,hours_since_provider_update
+2026-10-14,14:59,beds,Zinnia Health - Exeter,zinnia-health-exeter-2,Residential Treatment (Men),Substance Use,Community,,Filled,0,35,3,35,2026-10-06 14:58,192.0
+2026-10-14,14:59,beds,Zinnia Health - Exeter,zinnia-health-exeter-2,Residential Treatment (Women),Substance Use,Community,,Filled,0,23,2,23,2026-10-06 14:58,192.0
+2026-10-14,14:59,beds,Landmark Medical Center,landmark-medical-center-2,ED (BH - Waiting),Mental Health,Hospital,,Waiting,0,0,3,0,2026-10-14 07:12,7.8
+2026-10-14,14:59,beds,Landmark Medical Center,landmark-medical-center-2,Unit (BH - General),Mental Health,Hospital,,Open,2,112,0,114,2026-10-14 07:12,7.8
+2026-10-14,14:59,beds,Landmark Medical Center,landmark-medical-center-2,Unit (BH - Intensive/Violent),Mental Health,Hospital,,Filled,0,4,0,4,2026-10-14 07:12,7.8
+2026-10-14,14:59,beds,SSTARbirth,sstarbirth-2,Residential Treatment (Maternal),Substance Use,Community,,Open,1,11,0,12,2026-10-13 12:29,26.5
+2026-10-14,14:59,beds,South County Hospital,south-county-hospital-2,ED (BH - Waiting),Mental Health,Hospital,,Waiting,0,0,0,0,2026-10-07 13:57,169.0
+2026-10-14,14:59,beds,Fellowship - Elwyn CSU,fellowship-health-resources-2,Stabilization Unit,Mental Health,Community,,Open,5,11,0,16,2026-10-14 08:38,6.3
+2026-10-14,14:59,beds,Fatima Hospital,fatima-hospital,ED (BH - Waiting),Mental Health,Hospital,,Waiting,0,0,7,0,2026-10-14 10:06,4.9
+2026-10-14,14:59,beds,Fatima Hospital,fatima-hospital,Unit (BH - General),Mental Health,Hospital,,Filled,0,26,0,26,2026-10-14 10:06,4.9
+2026-10-14,14:59,beds,Fatima Hospital,fatima-hospital,Unit (BH - Geri-Psych),Mental Health,Hospital,,Filled,0,18,0,18,2026-10-14 10:06,4.9
+2026-10-14,14:59,beds,Fatima Hospital,fatima-hospital,Unit (LTBHU),Mental Health,Hospital,,Filled,0,7,0,7,2026-10-14 10:06,4.9
+2026-10-14,14:59,beds,Roger Williams Medical Center,roger-williams-medical-center-2,ED (BH - Waiting),Mental Health,Hospital,,Waiting,0,0,6,0,2026-10-14 09:59,5.0
+2026-10-14,14:59,beds,Roger Williams Medical Center,roger-williams-medical-center-2,Inpatient Detox (ASAM 3.7/4.0),Substance Use,Hospital,,Open,8,7,0,15,2026-10-14 09:59,5.0
+2026-10-14,14:59,beds,Roger Williams Medical Center,roger-williams-medical-center-2,Unit (BH - General),Mental Health,Hospital,,Filled,0,11,0,11,2026-10-14 09:59,5.0
+2026-10-14,14:59,beds,Roger Williams Medical Center,roger-williams-medical-center-2,Unit (BH - Geri-Psych),Mental Health,Hospital,,Filled,0,12,0,12,2026-10-14 09:59,5.0
+2026-10-14,14:59,beds,The Providence Center,the-providence-center-2,Residential Treatment (Men),Substance Use,Community,,Filled,0,27,29,27,2026-10-13 15:14,23.8
+2026-10-14,14:59,beds,The Providence Center,the-providence-center-2,Residential Treatment (Women),Substance Use,Community,,Filled,0,22,16,22,2026-10-13 15:14,23.8
+2026-10-14,14:59,beds,Newport Hospital,newport-hospital-2,ED (BH - Waiting),Mental Health,Hospital,,Waiting,0,0,2,0,2026-10-14 14:18,0.7
+2026-10-14,14:59,beds,Newport Hospital,newport-hospital-2,Unit (BH - General),Mental Health,Hospital,,Filled,0,10,0,10,2026-10-14 14:18,0.7
+2026-10-14,14:59,beds,Newport Hospital,newport-hospital-2,Unit (BH - Intensive/Violent),Mental Health,Hospital,,Filled,0,5,0,5,2026-10-14 14:18,0.7
+2026-10-14,14:59,beds,Rhode Island Hospital,rhode-island-hospital-2,ED (BH - Waiting),Mental Health,Hospital,,Waiting,0,0,8,0,2026-10-14 14:19,0.7
+2026-10-14,14:59,beds,Rhode Island Hospital,rhode-island-hospital-2,Unit (BH - General),Mental Health,Hospital,,Filled,0,36,0,36,2026-10-14 14:19,0.7
+2026-10-14,14:59,beds,Rhode Island Hospital,rhode-island-hospital-2,Unit (BH - Geri-Psych),Mental Health,Hospital,,Filled,0,5,0,5,2026-10-14 14:19,0.7
+2026-10-14,14:59,beds,Butler Hospital,butler-hospital-2,Monitored Detox (ASAM 3.7),Substance Use,Community,,Filled,0,29,0,29,2026-10-14 13:44,1.2
+2026-10-14,14:59,beds,Butler Hospital,butler-hospital-2,Unit (BH - Adolescent),Mental Health,Hospital,,Open,2,7,0,9,2026-10-14 13:44,1.2
+2026-10-14,14:59,beds,Butler Hospital,butler-hospital-2,Unit (BH - General),Mental Health,Hospital,,Filled,0,93,0,93,2026-10-14 13:44,1.2
+2026-10-14,14:59,beds,Butler Hospital,butler-hospital-2,Unit (BH - Geri-Psych),Mental Health,Hospital,,Open,2,20,0,22,2026-10-14 13:44,1.2
+2026-10-14,14:59,beds,Butler Hospital,butler-hospital-2,Unit (BH - Intensive/Violent),Mental Health,Hospital,,Filled,0,20,0,20,2026-10-14 13:44,1.2
+2026-10-14,14:59,beds,Kent Hospital,kent-hospital-2,ED (BH - Waiting),Mental Health,Hospital,,Waiting,0,0,5,0,2026-10-14 12:05,2.9
+2026-10-14,14:59,beds,Miriam Hospital,miriam-hospital-2,ED (BH - Waiting),Mental Health,Hospital,,Waiting,0,0,5,0,2026-10-14 07:53,7.1
+2026-10-14,14:59,beds,Community Care Alliance,community-care-alliance-2,Stabilization Unit,Mental Health,Community,,Filled,0,16,0,16,2026-10-14 10:20,4.6
+2026-10-14,14:59,beds,Galilee Mission - Wakefield,galilee-mission-wakefield-2,Residential Treatment,Substance Use,Community,,Filled,0,14,9,14,2026-10-13 17:42,21.3
+2026-10-14,14:59,beds,Galilee Mission - Narragansett,galilee-mission-narragansett-2,Residential Treatment (Men),Substance Use,Community,,Filled,0,15,9,15,2026-10-13 17:42,21.3
+2026-10-14,14:59,beds,Zinnia Health - Exeter,zinnia-health-exeter-2,Monitored Detox (ASAM 3.7),Substance Use,Community,,Open,6,19,0,25,2026-10-06 14:58,192.0
+2026-10-14,14:59,beds,Bridgemark Addiction Recovery Services,bridgemark-addiction-recovery-services-2,Residential Treatment,Substance Use,Community,,Open,8,25,5,33,2026-10-14 09:29,5.5
+2026-10-14,14:59,beds,Westerly Hospital,westerly-hospital-2,Unit (BH - Geri-Psych),Mental Health,Hospital,,Filled,0,16,0,16,2026-10-08 09:12,149.8
+2026-10-14,14:59,beds,Westerly Hospital,westerly-hospital-2,ED (BH - Waiting),Mental Health,Hospital,,Waiting,0,0,2,0,2026-10-08 09:12,149.8
+2026-10-14,14:59,beds,The Providence Center,the-providence-center-2,Stabilization Unit,Mental Health,Community,,Open,1,15,0,16,2026-10-13 15:13,23.8
+2026-10-14,14:59,beds,Community Care Alliance,community-care-alliance-2,Residential Treatment (Men),Substance Use,Community,,Filled,0,24,9,24,2026-10-14 10:26,4.6
+2026-10-14,14:59,beds,Adcare Rhode Island,adcare-rhode-island,Residential Treatment,Substance Use,Community,,Filled,0,28,0,28,2026-10-13 08:52,30.1
+2026-10-14,14:59,beds,Bradley Center,23368,Residential Treatment (Youth),Substance Use,Community,,Open,1,11,0,12,2026-09-18 16:13,622.8
+2026-10-14,14:59,beds,Fuller Hospital - Massachusetts,fuller-hospital,Unit (BH - Dual Diagnosis),Mental Health,Hospital,,Open,2,30,0,32,2026-10-14 09:16,5.7
+2026-10-14,14:59,beds,Fuller Hospital - Massachusetts,fuller-hospital,Unit (BH - General),Mental Health,Hospital,,Open,3,48,0,51,2026-10-14 09:16,5.7
+2026-10-14,14:59,beds,Fuller Hospital - Massachusetts,fuller-hospital,Unit (BH - Adolescent),Mental Health,Hospital,,Filled,0,14,0,14,2026-10-14 09:16,5.7
+2026-10-14,14:59,beds,Adcare Detox,adcare-detox,Monitored Detox (ASAM 3.7),Substance Use,Community,,Open,2,10,0,12,2026-10-13 08:52,30.1
+2026-10-14,14:59,beds,MAP Behavioral Health,map-behavioral-health,Residential Treatment (Men),Substance Use,Community,,Open,6,27,3,33,2026-10-14 09:27,5.5
+2026-10-14,14:59,beds,Bradley Hospital,bradley-hospital,Unit (CADD),DD Mental Health,Hospital,,Open,2,17,0,19,2026-10-14 12:10,2.8
+2026-10-14,14:59,beds,Bradley Hospital,bradley-hospital,Unit (BH - Children),Mental Health,Hospital,,Filled,0,17,0,17,2026-10-14 12:10,2.8
+2026-10-14,14:59,beds,Bradley Hospital,bradley-hospital,Unit (BH - Adolescent),Mental Health,Hospital,,Open,1,33,0,34,2026-10-14 12:10,2.8
+2026-10-14,14:59,beds,Bradley Hospital,bradley-hospital,Unit (Hasbro 6-Green),Mental Health,Hospital,,Open,3,8,0,11,2026-10-14 12:10,2.8
+2026-10-14,14:59,recovery_housing,Changes RI,changes-ri-2,Recovery Housing (Men),,,North Providence,Filled,0,22,,22,2026-10-03 21:21,257.6
+2026-10-14,14:59,recovery_housing,Sanctuary Recovery Houses,sanctuary-recovery-houses-2,Recovery Housing (Men),,,Greenville,Open,25,51,,76,2026-10-13 10:04,28.9
+2026-10-14,14:59,recovery_housing,Sanctuary Recovery Houses,sanctuary-recovery-houses-2,Recovery Housing (Women),,,Greenville,Open,4,19,,23,2026-10-13 10:04,28.9
+2026-10-14,14:59,recovery_housing,Open Doors Women,open-doors-womens-2,Recovery Housing (Women),,,Providence,Filled,0,14,,14,2026-09-24 13:23,481.6
+2026-10-14,14:59,recovery_housing,Open Doors,open-doors-2,Recovery Housing (Men),,,Pawtucket,Filled,0,29,,29,2026-09-24 13:23,481.6
+2026-10-14,14:59,recovery_housing,CCA Recovery Housing,cca-recovery-housing-2,Recovery Housing (Men),,,"Pawtucket, Woonsocket",Filled,0,6,,6,2026-10-14 10:24,4.6
+2026-10-14,14:59,recovery_housing,Next Step Sober Living,next-step-sober-living-2,Recovery Housing (Men),,,Lincoln,Open,2,11,,13,2026-10-10 13:16,97.7
+2026-10-14,14:59,recovery_housing,Captain Tom House,captain-tom-house-2,Recovery Housing (Men),,,Narragansett,Filled,0,6,,6,2026-10-13 17:41,21.3
+2026-10-14,14:59,recovery_housing,Hope Recovery Support LLC,hope-recovery-network-inc-2,Recovery Housing (Men),,,Woonsocket,Filled,0,29,,29,2026-09-27 10:23,412.6
+2026-10-14,14:59,recovery_housing,Bridgemark Addiction Recovery Services,bridgemark-addiction-recovery-services-2,Recovery Housing (Men),,,Warwick,Open,3,10,,13,2026-10-14 09:29,5.5
+2026-10-14,14:59,recovery_housing,Bridgemark Addiction Recovery Services,bridgemark-addiction-recovery-services-2,Recovery Housing (Veterans),,,Warwick,Waiting,0,0,,0,2026-10-14 09:29,5.5
+2026-10-14,14:59,recovery_housing,Access and Care Recovery Homes,access-and-care-recovery-homes,Recovery Housing - Gender Neutral,,,,Filled,0,15,,15,2026-09-26 15:41,431.3
+2026-10-14,14:59,recovery_housing,Access and Care Recovery Homes,access-and-care-recovery-homes,Recovery Housing (Men),,,,Filled,0,11,,11,2026-09-26 15:41,431.3
+2026-10-14,14:59,recovery_housing,Kayaly - Cottage Men,kayaly-cottage-mens-sober-house-vanderburgh-sober-living,Recovery Housing (Men),,,,Open,4,14,,18,2026-10-09 16:43,118.3
+2026-10-14,14:59,recovery_housing,Kayaly - Toll Gate Women's Sober House - Vanderburgh Sober Living,kayaly-toll-gate-womens-sober-house-vanderburgh-sober-living,Recovery Housing (Women),,,,Open,2,8,,10,2026-10-09 16:43,118.3
+2026-10-14,14:59,recovery_housing,Kayaly - Toll Gate (#2) Women's Sober House - Vanderburgh Sober Living,kayaly-toll-gate-2-womens-sober-house-vanderburgh-sober-living,Recovery Housing (Women),,,,Filled,0,12,,12,2026-10-09 16:43,118.3
+2026-10-14,14:59,recovery_housing,Kayaly Commonwealth Men's Sober House - Vanderburgh Sober Living,kayaly-commonwealth-mens-sober-house-vanderburgh-sober-living,Recovery Housing (Men),,,,Waiting,0,0,,0,2026-02-10 16:13,5902.8
+2026-10-14,14:59,recovery_housing,Kayaly - Beechwood Men's Sober House - Vanderburgh Sober Living,kayaly-beechwood-mens-sober-house-vanderburgh-sober-living,Recovery Housing (Men),,,,Open,2,15,,17,2026-10-09 16:43,118.3
+2026-10-14,14:59,recovery_housing,New Hope Community Men's Sober House - Vanderburgh Sober Living,new-hope-community-mens-sober-house-vanderburgh-sober-living,Recovery Housing (Men),,,,Open,8,16,,24,2026-10-09 16:44,118.3
+2026-10-14,14:59,recovery_housing,Timberline Recovery Homes - North Smithfield,timberline-recovery-homes-north-smithfield,Recovery Housing (Women),,,North Smithfield,Open,5,9,,14,2026-10-13 16:09,22.8
+2026-10-14,14:59,recovery_housing,Timberline Recovery Homes Woonsocket,timberline-recovery-homes-woonsocket,Recovery Housing (Women),,,Woonsocket,Open,5,8,,13,2026-10-13 16:10,22.8
+2026-10-14,14:59,recovery_housing,Timberline Recovery Homes Providence,timberline-recovery-homes-providence,Recovery Housing (Women),,,Providence,Filled,0,16,,16,2026-10-13 16:10,22.8
+2026-10-14,14:59,recovery_housing,Rise and Renewal,rise-and-renewal,Recovery Housing - Gender Neutral,,,,Open,2,10,,12,2026-08-15 12:50,1442.2
+2026-10-14,14:59,recovery_housing,Amos House,amos-house,Recovery Housing (Women),,,,Open,4,18,,22,2026-10-07 12:46,170.2
+2026-10-14,14:59,recovery_housing,Amos House,amos-house,Recovery Housing (Men),,,,Filled,0,25,,25,2026-10-07 12:46,170.2
+2026-10-14,14:59,recovery_housing,Hope Recovery Support LLC,hope-recovery-network-inc-cranston,Recovery Housing (Men),,,Cranston,Filled,0,72,,72,2026-09-27 10:24,412.6
+2026-10-14,14:59,recovery_housing,Amos House Swan St,amos-house-swan-st-2,Recovery Housing (Men),,,,Filled,0,5,,5,2026-10-07 12:56,170.1
+2026-10-14,14:59,recovery_housing,Amos House Swan St,amos-house-swan-st,Recovery Housing (Women),,,,Open,2,1,,3,2026-10-07 12:51,170.1
+2026-10-14,14:59,recovery_housing,Amos House Friendship St,amos-house-friendship-st,Recovery Housing (Men),,,,Filled,0,8,,8,2026-10-07 12:49,170.2
+2026-10-14,14:59,recovery_housing,Sanctuary Recovery Houses,sanctuary-recovery-houses,Recovery Housing (Men),,,Pawtucket,Open,5,11,,16,2026-10-13 10:04,28.9
+2026-10-14,14:59,recovery_housing,Brisan House 1,brisan-house-1,Recovery Housing (Men),,,Providence,Filled,0,10,,10,2026-10-14 09:52,5.1
+2026-10-14,14:59,recovery_housing,Brisan House 2,brisan-house-2,Recovery Housing (Men),,,Providence,Filled,0,11,,11,2026-10-14 09:52,5.1
+2026-10-14,14:59,recovery_housing,Brisan House 3,brisan-house-3,Recovery Housing (Women),,,Cranston,Open,2,8,,10,2026-10-14 09:52,5.1
+2026-10-14,14:59,recovery_housing,Brisan House 4,brisan-house-4,Recovery Housing (Men),,,Providence,Filled,0,12,,12,2026-10-14 09:53,5.1
+2026-10-14,14:59,recovery_housing,Brisan House 5,brisan-house-5,Recovery Housing (Men),,,Providence,Filled,0,12,,12,2026-10-14 09:53,5.1
+2026-10-14,14:59,recovery_housing,Brisan House 6,brisan-house-6,Recovery Housing (Women),,,Providence,Open,1,15,,16,2026-10-14 09:53,5.1
+2026-10-14,14:59,recovery_housing,Brisan House 7,brisan-house-7,Recovery Housing (Men),,,Cranston,Filled,0,9,,9,2026-10-14 09:54,5.1
+2026-10-14,14:59,recovery_housing,Brisan House 8,brisan-house-8,Recovery Housing (Men),,,Cranston,Filled,0,16,,16,2026-10-14 09:54,5.1
+2026-10-14,14:59,recovery_housing,Brisan House 9,brisan-house-9,Recovery Housing (Men),,,Pawtucket,Filled,0,12,,12,2026-10-14 09:54,5.1
+2026-10-14,14:59,recovery_housing,Brisan House 10,brisan-house-10,Recovery Housing (Men),,,Riverside,Filled,0,15,,15,2026-10-14 09:55,5.1
