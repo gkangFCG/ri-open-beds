@@ -1,0 +1,58 @@
+# Takes one snapshot of ribhopenbeds.org per day and saves it into this repo.
+#
+# Two scheduled tries per day. The second is a backup: if the first already
+# saved today's data, the second just says "SKIPPED".
+# GitHub times are in UTC:
+#   23:13 UTC = 7:13 pm ET until Nov 1, then 6:13 pm ET
+#   02:41 UTC = 10:41 pm ET until Nov 1, then 9:41 pm ET (same Eastern date)
+# GitHub can start scheduled runs up to about an hour late. That's fine.
+
+name: Daily bed snapshot
+
+on:
+  schedule:
+    - cron: "13 23 * * *"
+    - cron: "41 2 * * *"
+  workflow_dispatch: {}   # adds a "Run workflow" button for manual runs
+
+permissions:
+  contents: write         # lets the run save the new data into the repo
+
+concurrency:
+  group: daily-snapshot   # never let two runs write at the same time
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Get the repo
+        uses: actions/checkout@v6
+
+      - name: Take today's snapshot
+        id: scrape
+        run: |
+          set +e
+          python3 scrape_beds.py
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Save the data into the repo
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No new data to save."
+          else
+            git commit -m "Snapshot $(TZ=America/New_York date +%F)"
+            git pull --rebase --quiet
+            git push
+          fi
+
+      - name: Flag problems (this is what triggers GitHub's email)
+        if: steps.scrape.outputs.code != '0'
+        run: |
+          echo "The snapshot step reported a problem. Open 'Take today's snapshot' above to see why."
+          exit 1
