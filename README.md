@@ -1,8 +1,12 @@
 # RI Open Beds: 90-day daily snapshot
 
-Once a day, GitHub's computers download the bed counts from
-[ribhopenbeds.org](https://ribhopenbeds.org) and save them here. Nobody's laptop
-needs to be on.
+Once a day, GitHub's computers download the bed counts from the state's
+[Behavioral Health Availability page](https://ribhddh.my.site.com/ProviderPortal/s/availability)
+and save them here. Nobody's laptop needs to be on.
+
+> **Nov 2026:** ribhopenbeds.org was replaced by this BHDDH portal. Rows collected
+> before the switch have `source = old_site`, and rows after it have `source = bhddh_portal`.
+> The days in between are listed as missed in `data/STATUS.md`.
 
 - **The data:** `data/beds_daily.csv` (one row per provider + bed type per day)
 - **Progress at a glance:** `data/STATUS.md` (shows "Day N of 90" and any missed days)
@@ -114,6 +118,16 @@ Collection stops itself after 90 days. To turn off the schedule completely, clic
 | `total_reported_beds` | available + filled (a rough stand-in for capacity) |
 | `provider_updated_et` | When the provider last updated its numbers |
 | `hours_since_provider_update` | How old that update was when we captured it |
+| `source` | `old_site` (ribhopenbeds.org) or `bhddh_portal` (new state portal) |
+| `record_id`, `agency_id` | The portal's stable IDs for the bed line and the agency (new portal only; `provider_slug` is blank there) |
+| `narr_level` | Recovery housing support level, Level 1-4 (new portal only) |
+| `blocked`, `previous_day_discharge` | New counts the portal reports for some beds (blank when not reported) |
+
+**About the new portal:** Recovery housing is now one row per house, with its town. Many rows
+showed 0 available / 0 filled with a last update of Oct 30-31, 2026. Those are placeholders
+created when the portal launched, not real counts. Leave them out until the provider updates them
+(check `hours_since_provider_update`). The portal labels substance use beds "Substance Use Disorder"
+(the old site said "Substance Use"). A blank `waiting` means the provider didn't report it.
 
 **Two rules for analysis:**
 1. **Providers update on their own schedule.** Some rows can be days or weeks old.
